@@ -66,7 +66,7 @@ const SplashPage: React.VoidFunctionComponent = () => {
   return (
     <div className="splash-container d-flex flex-column justify-content-center align-items-center">
       <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         onClose={handleClose}
         open={state.alert}
         autoHideDuration={5000}
